@@ -22,6 +22,7 @@ var leave1 = require('leaves/leave1')
 var rewired = proxyquire('top', {
   './leaves/leave2': {}
   '../leaves/leave2': {}
+  './leaves/leave2': {}
   …
 });
 ```
